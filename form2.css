@@ -1,0 +1,82 @@
+.main{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 600px;
+    width: 600px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+
+    font-size: small;
+    font-weight: 600;
+    
+}
+
+
+input,button{
+    height: 30px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(163, 161, 161);
+    font-size: small;
+}
+.title{
+   text-align: center;
+   color: rgb(157, 66, 175);
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.heading{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+ background-color: rgb(215, 193, 218);
+    width: 300px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+.name{
+    width: 150px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  display: flex;
+  justify-content: space-between;
+}
+.email{
+    width: 300px;
+    
+  
+}
+.botm{
+    display:flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    width:280px;
+}
+.city{
+width: 100px;
+}
+.state{
+  
+    width: 50px;
+    
+}
+.zipCode{
+    width: 80px;
+}
+select{
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+}
+button{
+    width: 300px;
+    margin-top: 20px;
+  
+   
+}
